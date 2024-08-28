@@ -1,7 +1,7 @@
 console.log("Content script started");
 
 const observer = new MutationObserver(() => {
-  const bumpButtons = document.querySelectorAll('[data-testid="bump-ad-action-button"]');
+  const bumpButtons = document.querySelectorAll('[class*="bumpButton"]');
   if (bumpButtons.length > 0) {
     bumpButtons.forEach((button) => {
       try {
