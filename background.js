@@ -1,4 +1,4 @@
-chrome.alarms.create("bumpAlarm", { periodInMinutes: 240 });
+chrome.alarms.create("bumpAlarm", { periodInMinutes: 241 });
 
 chrome.alarms.onAlarm.addListener((alarm) => {
   if (alarm.name === "bumpAlarm") {

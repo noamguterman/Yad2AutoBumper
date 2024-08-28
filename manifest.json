@@ -3,7 +3,7 @@
   "name": "Yad2 Auto Bumper",
   "version": "1.0",
   "description": "Automatically bumps listings on Yad2 every 4 hours.",
-  "permissions": ["tabs", "storage", "alarms", "activeTab"],
+  "permissions": ["tabs", "storage", "alarms", "activeTab", "scripting"],
   "background": {
     "service_worker": "background.js"
   },

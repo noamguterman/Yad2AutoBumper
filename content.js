@@ -1,7 +1,5 @@
 window.onload = () => {
-  const bumpButtons = document.querySelectorAll(
-    ".action-button_actionButton__QQg7S.bump-button_bumpButton__Xu490.action-button_actionButton__QQg7S"
-  );
+  const bumpButtons = document.querySelectorAll(".action-button_actionButton__QQg7S");
 
   if (bumpButtons.length > 0) {
     bumpButtons.forEach((button) => {
