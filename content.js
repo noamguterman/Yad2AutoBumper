@@ -1,5 +1,5 @@
 window.onload = () => {
-  const bumpButtons = document.querySelectorAll(".action-button_actionButton__QQg7S");
+  const bumpButtons = document.querySelectorAll('[data-testid="bump-ad-action-button"]');
 
   if (bumpButtons.length > 0) {
     bumpButtons.forEach((button) => {
