@@ -1,0 +1,2 @@
+Disclaimer
+Important: This Chrome extension was developed for educational purposes and personal use only. Automating interactions on websites may violate the terms of service of those websites. By using this extension, you acknowledge that you are solely responsible for any actions taken with this code. The developer is not liable for any misuse or potential legal issues that may arise from the use of this extension.
